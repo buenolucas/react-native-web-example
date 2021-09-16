@@ -1,0 +1,44 @@
+{
+  "name": "uiforge",
+  "version": "0.0.1",
+  "description": "Forge",
+  "main": "src/index.ts",
+  "repository": "git@github.com:buenolucas/bookshelves.git",
+  "author": "buenolucasbr@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "books-scripts build",
+    "just": "books-scripts",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "web": "webpack serve --open"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.13.0",
+    "@casca/framework": "0.0.1",
+    "@books/ui": "0.0.1",
+    "nanoid": "^3.1.25",
+    "random-material-color": "^1.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.2",
+    "react-native": "^0.64.2",
+    "react-native-web": "^0.17.1",
+    "react-stately": "^3.8.0",
+    "recoil": "^0.4.0"
+  },
+  "devDependencies": {
+    "@books/tools": "1.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.14",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-native": "^0.64.12",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

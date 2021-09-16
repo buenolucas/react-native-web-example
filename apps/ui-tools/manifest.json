@@ -1,0 +1,7 @@
+{
+    "name": "Design system",
+    "id": "7413713981s37186725",
+    "api": "1.0.0",
+    "main": "dist/code.js",
+    "ui": "dist/ui.html"
+}

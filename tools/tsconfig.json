@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "es2015",
+    "module": "es6",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "types": ["node", "jest", "webpack"]
+  },
+  "baseUrl": ".",
+  "paths": {
+    "*": ["src/*"]
+  },
+  "include": ["src"]
+}

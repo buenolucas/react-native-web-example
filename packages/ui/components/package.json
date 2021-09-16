@@ -1,0 +1,37 @@
+{
+  "name": "@books/ui",
+  "version": "0.0.1",
+  "description": "books UI",
+  "repository": "git@github.com:buenolucas/bookshelves.git",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "books-scripts build",
+    "clean": "books-scripts clean",
+    "depcheck": "books-scripts depcheck",
+    "just": "books-scripts",
+    "lint": "books-scripts eslint",
+    "update-snapshots": "books-scripts jest -u",
+    "prettier": "books-scripts prettier",
+    "prettier-fix": "books-scripts prettier --fix true"
+  },
+  "author": "buenolucasbr@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@casca/framework": "0.0.1",
+    "@fluentui-react-native/adapters": "^0.6.9",
+    "@fluentui-react-native/interactive-hooks": "^0.10.31",
+    "react-native-svg": "^12.1.1"
+  },
+  "devDependencies": {
+    "@books/tools": "1.0.0",
+    "@types/jest": "^26.0.24",
+    "react-native": "^0.64.2",
+    "react-native-svg-transformer": "^0.14.3"
+  },
+  "peerDependencies": {
+    "react": "17.0.1",
+    "react-native": ">=0.64.2"
+  }
+}

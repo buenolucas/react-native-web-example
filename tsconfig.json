@@ -1,0 +1,15 @@
+{
+  "extends": "@books/tools/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@books/tools": [
+        "./packages/designsystem/src/index.ts"
+      ]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "../node_modules"]
+}

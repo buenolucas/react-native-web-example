@@ -1,0 +1,38 @@
+{
+  "name": "ui-tools",
+  "version": "1.0.0",
+  "description": "Ui tools",
+  "main": "src/code.tsx",
+  "repository": "git@github.com:buenolucas/bookshelves.git",
+  "author": "buenolucasbr@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "w": "books-scripts webpack",
+    "webpack:watch": "webpack --watch --config webpack.config.ts ",
+    "clean": "rm -rf dist/",
+    "build:js": "webpack",
+    "build": "npm run clean && npm run build:js"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-figma": "^0.17.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "@books/tools": "1.0.0",
+    "@figma/plugin-typings": "^1.31.0",
+    "@types/node": "^16.7.1",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.0.0",
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "html-webpack-plugin": "^5.3.2",
+    "react-figma-webpack-config": "^0.0.7",
+    "ts-loader": "^9.2.5",
+    "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}

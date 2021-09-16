@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+    "extensions": [ ".html", ".js", ".vue", ".jsx" ]
+    },
+}

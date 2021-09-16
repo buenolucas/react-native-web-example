@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "typeRoots": [
+      "../../node_modules/@types",
+      "../../node_modules/@figma"
+    ]
+  },
+  "include": ["./src"]
+}
