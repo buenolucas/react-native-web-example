@@ -6,7 +6,7 @@ this repository was created with an educational proposal and is under developmen
 - just-scripts
 - react-native
 - react-native-web
-- react-native-fluent
+- fluentui-react-native
 - storybook
 - grapqhl
 - koa
